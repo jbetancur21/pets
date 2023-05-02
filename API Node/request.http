@@ -1,0 +1,29 @@
+###
+GET http://localhost:9000/api_medicamentos/ HTTP/1.1
+
+###
+POST http://localhost:9000/api_medicamentos/api_medicamentos/ HTTP/1.1
+Content-Type: application/json
+
+{
+    "id": 13,
+    "nombre": "Humilub",
+    "descripcion": "Gotas lubricantes para los ojos",
+    "dosis": 2
+    
+}
+
+###
+DELETE http://localhost:9000/api_mascotas/34 HTTP/1.1
+
+###
+PUT http://localhost:9000/api_medicamentos/13 HTTP/1.1
+Content-Type: application/json
+
+{
+    "id": 13,
+    "nombre": "Humilub",
+    "descripcion": "Gotas lubricantes para los ojos",
+    "dosis": 2
+    
+}
